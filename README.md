@@ -1,7 +1,7 @@
-# Protractor-Cucumber Framework
+# BDD-Javascript Cucumber Framework
 
 To do an e2e(End to End) test of a non-angular application we can make use of this 
-Protractor-Cucumber Framework, which will support both angular and non-angular applications.
+BDD Javascript Cucumber Framework, which will support both angular and non-angular applications.
 
 Note: Have the Latest Browsers installed else there will be a browser conflicts and may not run
 
@@ -38,7 +38,7 @@ Framework Structure:
 │   │   │   ├── settings.js
 │   │   │   └── ...
 │   │   ├── featureFiles
-│   │   │   ├── EBAY
+│   │   │   ├── PHP
 │   │   │   │   ├── <Feature_Name>.feature
 │   │   │   │   ├── <Feature_Name>.feature
 │   │   │   │   ├── <Feature_Name>.feature
