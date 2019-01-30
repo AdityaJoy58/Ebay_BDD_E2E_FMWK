@@ -3,7 +3,7 @@
 To do an e2e(End to End) test of a non-angular application we can make use of this 
 Protractor-Cucumber Framework, which will support both angular and non-angular applications.
 
-Note: For demo purpose, We have used Instagram application(A ReactJs application) to Test.
+Note: Have the Latest Browsers installed else there will be a browser conflicts and may not run
 
 # Setup Steps
 
@@ -20,7 +20,7 @@ Once it is done, now the basic setup is done to run sample tests.
 
 ```
 Gulp is integrated to work with this project. So, you can go ahead by using the below command
-1) $ gulp e2e
+1) $ gulp execute
 
 ```
 
@@ -38,15 +38,15 @@ Framework Structure:
 │   │   │   ├── settings.js
 │   │   │   └── ...
 │   │   ├── featureFiles
-│   │   │   ├── LoginFunctionality
-│   │   │   │   ├── Home_Buttons.feature
-│   │   │   │   ├── Home_Fields.feature
-│   │   │   │   ├── Login.feature
+│   │   │   ├── EBAY
+│   │   │   │   ├── <Feature_Name>.feature
+│   │   │   │   ├── <Feature_Name>.feature
+│   │   │   │   ├── <Feature_Name>.feature
 │   │   │   │   └── ...
 │   │   │   │   └── step_definitions
-│   │   │   │       ├── Home_Buttons_steps.js
-│   │   │   │       ├── Home_Page_steps.js
-│   │   │   │       ├── Login_steps.js
+│   │   │   │       ├── <Step_definition>_steps.js
+│   │   │   │       ├── <Step_definition>_steps.js
+│   │   │   │       ├── <Step_definition>_steps.js
 │   │   │   │       └── ...
 │   │   ├── pages
 │   │   │   ├── homePage.js
